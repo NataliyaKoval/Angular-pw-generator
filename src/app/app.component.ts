@@ -14,7 +14,7 @@ export class AppComponent {
   includeSymbols = false;
   password = '';
 
-  onChangeInput(value: string): void {
+  onChangeLength(value: string): void {
     const parsedValue = parseInt(value, 10);
 
     if (!isNaN(parsedValue)) {
